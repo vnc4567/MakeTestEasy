@@ -72,6 +72,6 @@ You can retreive all mocked object with method Get<Tdependencie> and you can do 
   ```
   The line Create().ExcludeDependenciesToBeMock(dontMock).Build() is needed only if we don't want to mock a specific dependancie.
   
-The line Get<IPriceRepository>().SetupWithoutParamAsync("FindAsync", 5m) retreive the mock for IPriceRepository and indicate that mock should return 5 for method FindAsync no matters parametters oh this method
+The line Get<IPriceRepository>().SetupWithoutParamAsync("FindAsync", 5m) retreive the mock for IPriceRepository and indicate that mock should return 5 for method FindAsync no matters parametters pass on this method
   
   
